@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;   
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #172b4d;
+    background-color: #f5f7fb;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10213b;
+    color: #fff;
+    padding: 1.5rem 7rem  ;
+}
+.nav-links {
+    display: flex;
+    list-style: none;   
+    gap: 1.5rem;
+}
+.logo {
+    font-size: 25px;
+}
+.logo > span {
+    color: #A78BFA;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    color: #a78bfa;
+}
+
+.herosection {
+    min-height: 55vh;
+
+    background-image:
+      linear-gradient(
+    rgba(15, 30, 55, 0.52),
+    rgba(15, 30, 55, 0.52)
+),
+        url("images/photo-1500530855697-b586d89ba3ee.jpeg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 60px 8%;
+    color: white;
+}
+
+.content {
+    max-width: 550px;
+}
+
+.herosection h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.herosection h1 span {
+    color: #a78bfa;
+}
+
+.herosection p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8b5cf6;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #6d28d9;
+}
+
+.courses {
+    padding: 55px 8%;
+}
+
+.courses  h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    flex: 1;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.card-one {
+    background-color: #eee8ff;
+}
+
+.card-two {
+    background-color: #e0f2fe;
+}
+
+.card-three {
+    background-color: #dff8ee;
+}
+
+.card:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #475569;
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #7c3aed;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #4c1d95;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #8b5cf6;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #10213b;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #cbd5e1;
+}
